@@ -18,16 +18,16 @@
     </php>
 
     <testsuites>
-        <testsuite name="Traker Test Suite">
-            <directory>./src/Traker/Tests/</directory>
+        <testsuite name="Tracker Test Suite">
+            <directory>./src/Tracker/Tests/</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory>./src/Traker/</directory>
+            <directory>./src/Tracker/</directory>
             <exclude>
-                <directory>./src/Traker/*/Tests</directory>
+                <directory>./src/Tracker/*/Tests</directory>
             </exclude>
         </whitelist>
     </filter>
