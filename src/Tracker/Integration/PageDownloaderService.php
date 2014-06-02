@@ -1,11 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: juan
- * Date: 02/06/14
- * Time: 20:40
- */
+
+
+namespace Tracker\Integration;
 
 class PageDownloaderService {
 
+    public static function main()
+    {
+        $client = new \GuzzleHttp\Client();
+        $response = $client->get('http://www.eltenedor.es/restaurante/miramar-restaurant-garden-club/2418');
+        var_dump($response);
+    }
 } 
