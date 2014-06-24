@@ -1,5 +1,5 @@
 <?php
-namespace Tracker\Console\Command;
+namespace Tracker\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Formatter\OutputFormatterStyle;
