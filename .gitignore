@@ -1,6 +1,7 @@
 /.idea
 *.DS_Store
 /bin/*
+!/bin/console
 composer.phar
 /vendor/
 /data/

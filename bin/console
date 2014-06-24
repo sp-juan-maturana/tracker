@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+
+<?php
+define('TRACKER_ROOT', dirname(__DIR__));
+
+require_once TRACKER_ROOT.'/vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use Tracker\Command\DownloadPage;
+use Tracker\Command\GreetCommand;
+
+$application = new Application();
+$application->add(new GreetCommand);
+$application->add(new DownloadPage);
+$application->run();
